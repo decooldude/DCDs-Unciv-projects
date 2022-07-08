@@ -1,7 +1,7 @@
 	// Information Era
 {
 		"name": "Modern Paratrooper",
-		"unitType": "Gunpowder",
+		"unitType": "Paratrooper",
 		"movement": 3,
 		"strength": 85,
 		"cost": 400,
