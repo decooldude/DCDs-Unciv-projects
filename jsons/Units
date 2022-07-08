@@ -1,6 +1,6 @@
 	// Information Era
 {
-		"name": "Modern Paratrooper",
+		"name": "Modern Air Assault Infantry",
 		"unitType": "Paratrooper",
 		"movement": 3,
 		"strength": 85,
