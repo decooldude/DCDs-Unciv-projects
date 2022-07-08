@@ -1,0 +1,13 @@
+	// Information Era
+{
+		"name": "Modern Paratrooper",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 85,
+		"cost": 400,
+		"requiredTech": "Globalisation",
+		"uniques": ["May Paradrop up to [10] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+		// "No Movement Cost to Pillage" in BNW
+	}
+]
