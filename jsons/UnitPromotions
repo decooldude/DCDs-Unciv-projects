@@ -1,0 +1,41 @@
+	//Paratrooper
+	{
+		"name": "Secure and Hold",
+		"uniques": ["[+10]% Strength <when defending>", "[+15]% Strength <in [Enemy Land] tiles>"],
+		"unitTypes": ["Paratrooper"]
+	},
+	{
+		"name": "Multiterrain Operation",
+		"uniques": ["[+20]% Strength <in [Rough terrain] tiles>", "Ignores terrain cost"],
+		"unitTypes": ["Paratrooper"]
+	},
+	{
+		"name": "Airborne Raider",
+		"uniques": ["No movement cost to pillage"],
+		"prerequisites": ["Secure and Hold"],
+		"unitTypes": ["Paratrooper"]
+	},
+	{
+		"name": "Forward Recon",
+		"uniques": ["[+1] Sight"],
+		"prerequisites": ["Multiterrain Operation"],
+		"unitTypes": ["Paratrooper"]
+	},
+	{
+		"name": "Paragrenadier",
+		"uniques": ["[+25]% Strength <vs [Heavy Cavalry] units>", "[+25]% Strength <vs [Light Cavalry] units>", "[+25]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+25]% Strength <vs [Counter Cavalry] units>"],
+		"prerequisites": ["Airborne Raider", "Supply Drop"],
+		"unitTypes": ["Paratrooper"]
+	},
+	{
+		"name": "Supply Drop",
+		"uniques": ["[+10] HP when healing", "[1] additional attacks per turn"],
+		"prerequisites": ["Forward Recon", "Paragrenadier"],
+		"unitTypes": ["Paratrooper"]
+	},
+	{
+		"name": "Airborne Shock Troops",
+		"uniques": ["[+20]% Strength", "[+30]% Strength <vs cities>"],
+		"prerequisites": ["Paragrenadier", "Supply Drop"],
+		"unitTypes": ["Paratrooper"]
+	}
